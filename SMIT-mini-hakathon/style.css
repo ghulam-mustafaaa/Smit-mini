@@ -1,0 +1,81 @@
+
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    background: #fff;
+    font-size: 17px;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+}
+
+.header{
+    width: 100%;
+    height: 550px;
+    /* background-attachment: fixed; */
+    border: 5px solid;
+    background-size: cover;
+    background-image: url(assets/images/bg_1.jpg);
+}
+
+.wrap {
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.social-media p a {
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    margin-right: 7px;
+    border-radius: 50%;
+}
+
+.social-media p a span {
+    color: #000000;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    white-space: nowrap;
+    border: 0;
+}
+
+.phone a, .social-media a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.navbar>.container {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ftco-navbar-light .navbar-brand .flaticon {
+    color: #fd4c82;
+}
+
+.nav{
+    padding: 50px;
+    background-color: aliceblue;
+    position: absolute;
+    top: 20px;
+}
